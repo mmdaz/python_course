@@ -53,3 +53,12 @@ print(l_3)
 # print(l_3[0][3:])
 
 
+
+
+print(len(l_3))
+
+print(2 in l_1 and 3 in l_1)
+
+s = "muhammad"
+
+print("m" in s)
