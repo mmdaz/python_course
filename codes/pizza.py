@@ -11,12 +11,17 @@ class Pizza:
         else:
             print("Oh no! Out of pizza")
 
+    @staticmethod
+    def test_class_method():
+        print("I am class method ")
+
     def __private_test_method(self):
         pass
+
 
 if __name__ == '__main__':
     pizza_1 = Pizza(radius=30, toppings=["mashroom", "chicken"], slices=10)
     print(pizza_1.slices_left)
     pizza_1.eat_slice()
-    pizza_1.__private_test_method()
     print(pizza_1.slices_left)
+    Pizza.test_class_method()

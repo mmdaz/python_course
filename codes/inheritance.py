@@ -6,7 +6,8 @@ class Animal:
         self.speed = speed
 
     def run(self):
-        print("I am running ... speed :{}".format(self.speed))
+        raise NotImplementedError
+        # print("I am running ... speed :{}".format(self.speed))
 
 
 class Fish(Animal):
