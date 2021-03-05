@@ -1,0 +1,6 @@
+Muhammad 6 3
+Ali 9 6
+Hasan 10 3
+Muhammad: 66.66666666666667 
+Ali: 60.0 
+Hasan: 76.92307692307692 
